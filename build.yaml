@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: corne
+  - board: nrfmicro_13_52833 
     shield: satcorne
