@@ -17,7 +17,6 @@
 
 	keymap_transform0: keymap_transform0 {
         compatible = "zmk,matrix-transform";
-        col-offset = <2>;
         columns = <4>;
         rows = <1>;
         map = <
