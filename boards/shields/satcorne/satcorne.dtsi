@@ -7,7 +7,7 @@
         wakeup-source;
 
         row-gpios
-            = <&nice_nano_v2 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&gpio0 24 (GPIO_ACTIVE_HIGH)>
             ;
 
     };
