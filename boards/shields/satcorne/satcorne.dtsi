@@ -3,7 +3,6 @@
 / {
 	chosen {
 		zmk,physical-layout = &physical_layout0;
-        zmk,matrix_transform = &default_transform;
 	};
 
     kscan0: kscan0 {
@@ -18,6 +17,7 @@
 
 	keymap_transform0: keymap_transform0 {
         compatible = "zmk,matrix-transform";
+        col-offset = <2>;
         columns = <4>;
         rows = <1>;
         map = <
