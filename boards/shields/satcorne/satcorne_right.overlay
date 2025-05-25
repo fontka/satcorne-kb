@@ -4,4 +4,5 @@
     col-gpios
         = <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
           <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+    zmk,kscan-split-role = "right";
 };
