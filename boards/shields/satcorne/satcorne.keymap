@@ -7,7 +7,7 @@
 
         default_layer { // Layer 0 
             bindings = <
-                &kp A  &kp S  &kp D  &kp F
+                &kp M  &sys_reset  &kp S  &bootloader
             >;
         };
     };
