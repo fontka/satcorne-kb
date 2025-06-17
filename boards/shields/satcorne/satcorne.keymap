@@ -7,7 +7,10 @@
 
         default_layer { // Layer 0 
             bindings = <
-                &kp M  &sys_reset  &kp S  &bootloader
+                &kp TAB   &kp Q &kp W &kp E &kp R &kp T &kp N1       &kp N3 &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
+                &kp LCTRL &kp A &kp S &kp D &kp F &kp G &kp N2       &kp N4 &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+                &kp LSHFT &kp Z &kp X &kp C &kp V &kp B                     &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
+                                &kp LGUI &mo 1 &kp SPACE                    &kp RET &mo 2 &kp RALT
             >;
         };
     };
